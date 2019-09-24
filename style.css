@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ece5da;
+    background-size: cover;
+}
+
+h1{
+    font-family: "Avenir";
+    font-size: 170px;
+    text-align: center;
+    color: black; 
+}
+
+h2{
+     font-family: "Avenir";
+    font-size: 160px;
+    text-align: center;
+    color: white; 
+}
+
+#box1{
+    height: 200%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+#box2{
+    height: 200%;
+    width: 100%; 
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#box2 a {
+    text-decoration: none;
+}
+
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
