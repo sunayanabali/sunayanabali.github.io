@@ -35,7 +35,7 @@ h2{
 #box2{
     height: 200%;
     width: 100%; 
-    background-color: black; 
+    background-color: #900C3F; 
     display: flex;
     align-items: center;
     justify-content: center; 

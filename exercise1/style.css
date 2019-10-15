@@ -1,0 +1,122 @@
+body {
+  align-items: center;
+  background-image:linear-gradient(yellow,lightyellow); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+body:hover {
+  height: auto;
+  background-image: linear-gradient(midnightblue, lightblue);
+  transition: background-image 2s ease-out;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  color: black;
+  padding-bottom: .25em;
+  text-decoration: none;
+}
+
+h1:hover {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  color:#ffe6ff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 30px;
+  font-family: Avenir;
+  text-align: center;
+
+}
+
+a{
+  text-decoration:none;
+  color: grey;
+
+}
+
+a:hover {
+  background: none;
+  color: red;
+  font-family: impact;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+  line-height: .75em;
+  text-decoration: none;
+}
+
+.box {
+  opacity: 0.5;
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box:hover {
+  background-color: purple;
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.box2 {
+  width: 750px;
+  height: 250px;
+  background: pink;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box2:hover {
+  width: 550px;
+  height: 550px;
+  background: magenta;
+  border-radius: 50%;
+  -webkit-transition: background-color 4s ease-out;
+  transition: background-color 4s ease-out;
+  position: relative;
+
+}
+.button_cont {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.button {
+color: #fff ;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+
