@@ -1,0 +1,80 @@
+
+body {
+  font-size:18px;
+   background-image:url("imgs/wall.jpg");
+}
+
+a {
+  font-size: 25px; 
+  color: red;
+  padding: 0;
+}
+
+a:hover {
+  color: purple;
+  font-size: 40px;
+}
+
+.container {
+text-align: center;
+  width:80%;
+  height: auto;
+  display: inline-block;
+}
+
+.container p {
+  background-color: white;
+  font-family: arial;
+  font-size: 25px; 
+  color:black;
+  margin:0;
+  padding: 0;
+  line-height: 40px;
+}
+
+h1 {
+    margin:0;
+    font-size: 120px;
+    font-family: cursive;
+    color: black;
+}
+h2 {
+    font-size: 40px;
+    font-family: Arial;
+    color: black;
+}
+nav ul {
+    margin: 0;
+    padding: 2;
+    font-family: Arial;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+    color:black ;
+}
+
+nav ul li p {
+  color: black;
+  font-family: Arial;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  text-decoration: none;
+}
+
+.left-content {  
+  text-align:center;
+}
+.left-content p {
+  margin:150px 0 0;
+}
+.right-content p{
+
+  margin:80px 0 150px;
+}
+
+img {
+  padding: 5%;
+}
