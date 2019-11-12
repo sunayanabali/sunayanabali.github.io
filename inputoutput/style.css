@@ -1,0 +1,12 @@
+
+body {
+	background-color: lightblue;
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+}
+p,h1{
+	font-family: 'Space Mono', monospace;
+	font-size: 60px;
+	color: purple;
+	padding: 20px;
+}
