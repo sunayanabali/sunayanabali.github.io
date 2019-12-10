@@ -1,13 +1,16 @@
-body {
-	background-image: url("imgs.png"); 
+body { 
 	font-size:18px;
+	background-image: url(imgs.png);
 }
 
 h1 {
-	font-size: 140px;
+	font-size: 100px;
 	color: black;
 	font-family: cursive;
 	filter: saturate(8);
+	font-family: wigwag-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
@@ -44,6 +47,7 @@ a:hover {
 	font-family: arial;
 	font-size: 25px; 
 	color: #fff;
+	opacity: 1;
 	margin:0;
 	padding: 0;
 	line-height: 40px;
@@ -59,18 +63,20 @@ a:hover {
 .right-content p {
 	margin:80px 0 150px;
 }
-.container p {
--webkit-transition: all 0.7s ease-in-out;
--moz-transition: all 0.7 ease-in-out;
--ms-transition: all 0.7s ease-in-out;
--o-transition: all 0.7s ease-in-out;
-transition: all 0.7s ease-in-out;	
+img {
+ padding: 1%;
+  max-width:100%;
+  height: auto;
+  background-color: black;
+opacity: 1;
 }
-.left-content .more-padding {
-  padding-right:100px;
+
+.left-content img {
+transition: transform .2s;
 }
-.right-content .more-padding {
-  padding-left:100px;
+.left-content img:hover {
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
 
 

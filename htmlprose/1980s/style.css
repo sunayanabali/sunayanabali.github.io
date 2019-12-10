@@ -1,42 +1,42 @@
 
 body {
   font-size:18px;
-   background-image:url('imgs/back.jpg');
+  background-color: #ffccff;
 }
 
 a {
-  font-size: 25px; 
-  color: red;
-  padding: 0;
+  color: black;
+  font-family: arial;
 }
 
 a:hover {
   color: purple;
   font-size: 40px;
+   font-family: arial;
 }
 
 .container {
-text-align: center;
-  width:80%;
-  height: auto;
-  display: inline-block;
+width: 90%;
+  position: relative;
+  display: flex;
 }
 
 .container p {
-  background-color: white;
+   justify-content: center;
+   padding: 5%;
   font-family: arial;
-  font-size: 25px; 
+  font-size: 21px; 
   color:black;
-  margin:0;
-  padding: 0;
   line-height: 40px;
 }
 
 h1 {
     margin:0;
-    font-size: 120px;
-    font-family: cursive;
-    color: black;
+  font-size: 100px;
+  font-family: wigwag-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 h2 {
     font-size: 40px;
@@ -65,16 +65,31 @@ nav ul li p {
 }
 
 .left-content {  
-  text-align:center;
+  justify-content:center;
+  width: 200px;
+  background-color:  #d98cb3;
+  border: 10px solid black;
+  padding: 10px;
+  margin: 5px;
 }
-.left-content p {
-  margin:150px 0 0;
-}
-.right-content p{
-
-  margin:80px 0 150px;
-}
-
 img {
-  padding: 5%;
+ padding: 1%;
+  max-width:100%;
+  height: auto;
+  background-color: black;
+opacity: 0.6;
+}
+
+img:hover {
+
+  opacity: 1;
+}
+
+
+.left-content img {
+transition: transform .2s;
+}
+.left-content img:hover {
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
