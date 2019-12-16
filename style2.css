@@ -4,10 +4,14 @@
 
 body {
     background-color: #ece5da;
+    background-image: url(imgs/hi.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    height: auto;
 }
 .title {
-    background-color: #ece5da;
-    box-shadow: 2px 2px 5px 2px #424f63;
+    background-color: #f9ebef;
+    box-shadow: 2px 2px 5px 2px #cd4c70;
 }
 
 .title a {
@@ -18,7 +22,9 @@ h1 {
     margin:0;
     padding: 10px;
     font-size: 50px;
-    font-family: Avenir;
+    font-family: ultra, serif;
+    font-weight: 400;
+    font-style: normal;
     color: black;
 }
 
@@ -46,7 +52,7 @@ nav ul li a {
 }
 
 .dropbutton {
-  background-color:#ece5da;
+  background-color:#f9ebef; 
   color: black;
   font-family: Avenir;
   padding: 16px;
@@ -61,18 +67,64 @@ nav ul li a {
   position: absolute;
   width: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
   color: black;
+  background-color: #f4d7df;
   text-decoration: none;
   display: block;
   font-family: Avenir;
   z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {display: block;}
-
-.images {
-    float: center;
+.dropdown:hover .dropdown-content {display: block;
 }
+
+.container {
+   padding: 10;
+  margin: 0;
+}
+
+.items {
+    margin-top: 2%;
+   display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+.items img  {
+  width: 50vw;
+  padding: 2vh;
+  margin: 40px;
+border: solid 10px #ffe066;
+  height:auto;
+}
+
+.button_cont {
+  padding:0;
+  margin:70px;
+}
+.button {
+color: #fff ;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+padding: 40px;
+font-family: Avenir;
+font-weight: bolder;
+border-radius: 7px;
+display:flex;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
