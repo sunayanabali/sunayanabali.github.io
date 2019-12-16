@@ -1,0 +1,141 @@
+html, body {
+   background-color: #777;
+  font-family: "lato";
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  max-width: auto;
+  max-height: auto;
+}
+
+* {
+  box-sizing: border-box;
+  font-weight: normal;
+}
+/*
+.navigation {
+  background-color: black;
+  color: white;
+  position: fixed;
+  height: 100vh;
+  width: 14vw;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 5px;
+  z-index: 100;
+  overflow: scroll;
+
+}
+.mapicon {
+  padding: 15%;
+*/
+
+
+a {
+  color: white;
+  font-size: 15px;
+}
+
+a:hover {
+  color: white;
+  font-size: 25px;
+}
+
+img {
+   height: auto;
+   max-width: 90%;
+}
+
+ul,
+li {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+ul#images,
+ul#filters {
+   display: flex;
+   flex-direction: row;
+   -webkit-flex-flow: row wrap;
+   width: 100%;
+    padding: 10;
+   margin: 0;
+  justify-content: center;
+
+}
+
+#images {
+   margin-left: 20vw;
+   display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+#images img {
+   width: 15vw;
+  padding: 2vh;
+  margin: 20px;
+  background-color: black;
+  border-color: 6px solid #000;
+  height: 16vw auto;
+}
+
+ul#filters li a {
+   color: #fff;
+   display: flex;
+   padding: 1rem;
+   text-decoration: none;
+}
+
+ul#filters li a:hover {
+   text-decoration: underline;
+}
+
+.hide {
+   display: none;
+}
+
+.button {
+ background-color: #4CAF50; 
+  border: none;
+  border-radius: 20px;
+  color: white;
+ position: absolute;
+right: 85px;
+top: 25px;
+padding:20px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #f44336;
+  color: white;
+
+}
+.button2 {
+   background-color: #f44336; 
+  border: none;
+  border-radius: 20px;
+  color: white;
+ position: absolute;
+ left: 85px;
+ top: 25px;
+ padding:20px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  background-color:#4CAF50 ;
+  color: white;
