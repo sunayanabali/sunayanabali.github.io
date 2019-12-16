@@ -1,0 +1,77 @@
+/* 
+   :: GLOBAL
+   :: TYPOGRAPHY
+   :: NAVIGATION
+*/
+
+html {
+   background: #000 ;
+   height: 100%;
+}
+
+body {
+   align-items: center;
+   background: #FA9E8B;
+   display: flex;
+   font-family: 'impact';
+   justify-content: center;
+   min-height: 100%;
+}
+
+.wrapper {
+   display: flex;
+   background-color:#ccffff;
+   border-radius: 10% / 50%;
+   flex-direction: column;
+   text-align: center;
+   @media (min-width: 40em) {
+      margin: 0 auto;
+      width: 30vw;
+   }
+}
+
+h1{
+   font-family: 'impact';
+   font-size: 90px;
+   color: #ff6666;
+   
+}
+h1:hover{
+   color:#ffcc00;
+   text-shadow: 8px 7px rgb(255, 0, 102);
+}
+
+form {
+   padding: 2rem 0;
+}
+
+#operation__select{
+   height: 50px;
+   width: 50px;
+   background-color: pink;
+   color: black;
+}
+
+#operation__select:hover{
+   background-color: #e6eeff;
+   color:black;
+}
+
+#operation__result{
+   color:black;
+}
+
+button{
+   background-color: pink;
+   height: 50px;
+   width: 50px;
+   text-align: center;
+   color: black;
+   border-radius: 2px;
+}
+
+button:hover{
+   background-color:#e6eeff ;
+   color: black;
+}
+
