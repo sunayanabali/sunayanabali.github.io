@@ -1,0 +1,58 @@
+html,body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffd6cc;
+}
+
+
+
+h2 {
+font-family: viktor-script, sans-serif;
+font-size: 80px;
+font-weight: 400;
+font-style: normal;
+margin: 0;
+padding: 0;
+
+}
+
+a {
+	text-decoration: none;
+
+}
+a:hover {
+	font-size: 80px;
+	color: green;
+}
+
+p {
+	font-size: 19px;
+	font-family: arial;
+}
+
+.box1 {
+	display: inline-block;
+	padding:5px;
+	margin: 2%;
+	width: 45%;
+}
+
+
+.container {
+   padding: 10;
+  margin: 0;
+}
+
+.items {
+   display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+.items img  {
+  width: 25vw;
+  padding: 2vh;
+  margin: 20px;
+border: solid 4px #ff8566;
+  height: 26vw auto;
+
