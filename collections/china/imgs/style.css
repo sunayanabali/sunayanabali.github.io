@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+body {
+  background-color: #777;
+  font-family: "lato";
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  max-width: auto;
+  max-height: auto;
+
+
+}
+.navigation {
+  background-color: black;
+  color: white;
+  position: fixed;
+  height: 100vh;
+  width: 13vw;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 5px;
+  z-index: 100;
+  overflow: scroll;
+
+}
+.mapicon {
+  padding: 15%;
+
+}
+
+a {
+  color: white;
+  font-size: 15px;
+}
+
+a:hover {
+  color: white;
+  font-size: 25px;
+}
+
+h2 {
+  font-family: "lato";
+  font-size: 100px;
+  margin-left: 30%;
+  color: white;
+  text-shadow: 0px 2px 3px #666;
+}
+
+.container {
+  padding: 10;
+  height: auto;
+  margin: 0;
+}
+
+.items {
+   margin-left: 15vw;
+   position: relative; 
+   color: white;
+   display: inline-block;
+  justify-content: center;
+}
+
+.items img  {
+  width: 20vw;
+  padding:15px;
+  margin: 20px;
+  background-color: black;
+  height: 30vw; 
+  text-align:center;  
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+/*
+.flip-card-container {
+  margin:50px;
+  height: 50px;
+}
+
+.flip-card {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.flip-card-container:hover .flip-card {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 50%;
+height: 50%;
+backface-visibility: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.flip-card-front {
+  height: auto;
+  background-color: black;
+color: #fff;
+}
+.flip-card-back {
+  background-color: black;
+  color: #fff;
+  transform: rotateY(180deg);
+}
+*/

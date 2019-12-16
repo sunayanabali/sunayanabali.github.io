@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+body {
+  background-color: #777;
+  font-family: "lato";
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  max-width: auto;
+  max-height: auto;
+
+}
+.navigation {
+  background-color: black;
+  color: white;
+  position: fixed;
+  height: 100vh;
+  width: 14vw;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 5px;
+  z-index: 100;
+  overflow: scroll;
+
+}
+.mapicon {
+  padding: 15%;
+
+}
+
+a {
+  color: white;
+  font-size: 15px;
+}
+
+a:hover {
+  color: white;
+  font-size: 25px;
+}
+
+h2 {
+  font-family: "lato";
+  font-size: 100px;
+  margin-left: 30%;
+  color: white;
+  text-shadow: 0px 2px 3px #666;
+}
+
+.container {
+   padding: 10;
+  margin: 0;
+}
+
+.items {
+   margin-left: 15vw;
+   display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+.items img  {
+  width: 20vw;
+  padding: 2vh;
+  margin: 20px;
+  background-color: black;
+  border-color: 6px solid #000;
+  height: 21vw;
+
+
+}
+
+
